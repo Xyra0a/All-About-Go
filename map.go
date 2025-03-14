@@ -8,13 +8,15 @@ func main(){
 		"kelas": "12 RPL 1",
 		"umur": "18",
 	}
-	person["nama"] = "Anjay"
-	delete(person, "nama")
+	// person["nama"] = "Anjay"
+	// delete(person, "nama")
 
-	fmt.Println(person)
-	fmt.Println(person["nama"])
-	fmt.Println(person["kelas"])
-	fmt.Println(len(person))
+	for _, orang := range person{
+		fmt.Println(orang)
+	}
+	// fmt.Println(person["nama"])
+	// fmt.Println(person["kelas"])
+	// fmt.Println(len(person))
 
 	// city := map[string]string{
 	// city := make(map[string]string){
